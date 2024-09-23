@@ -83,10 +83,10 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/ShristiSharan">
+          <Link href="https://github.com/rajeshrj-git?tab=repositories">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/shristi-sharan-605543227/">
+          <Link href="https://www.linkedin.com/in/rajesh-n-66b0a6208/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
@@ -111,7 +111,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="shristisharan05@gmail.com"
+                placeholder="rajeshnadarajan2003@gmail.com"
               />
             </div>
             <div className="mb-6">

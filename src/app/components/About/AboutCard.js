@@ -10,12 +10,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "center" }}>
-            Hi There, I am <span className="green">Shristi Sharan </span>
+            Hi There, I am <span className="green">Rajesh</span>
             , Final year Undergrad Student.
             <br />
-            Driven deep into <span className="green">Software Dvelopment</span> and <span className="green">Deep Learning & Generative AI.</span>
+            Driven deep into <span className="green">AI/DL Development</span> and <span className="green">NLP/LLM's & Generative AI.</span>
             <br />
-            Pursuing Electrical & Computer Science Engineering from IIIT Ahmedabad-IITRAM
+            Computer Science Engineering from TamilNadu-MACET
             <br />
             My goal is to acquire comprehensive knowledge, hands-on experience in order to find innovative solutions.
             <br />
@@ -24,7 +24,7 @@ function AboutCard() {
           </p>
           <ul style={{ textAlign: "center", listStyle: "none", padding: 0 }}>
             <li className="about-activity" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <ImPointRight style={{  marginRight: "10px" }}/> Designing
+              <ImPointRight style={{  marginRight: "10px" }}/> Reading
             </li>
             <li className="about-activity" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
               <ImPointRight style={{  marginRight: "10px" }}/> Planning & Managing
@@ -38,7 +38,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 17)" }}>
 You can always do more than you know-Never STOP Learning!{" "}
           </p>
-          <footer className="blockquote-footer">-Shristi</footer>
+          <footer className="blockquote-footer">-Rajesh</footer>
         </blockquote>
       </Card.Body>
     </Card>

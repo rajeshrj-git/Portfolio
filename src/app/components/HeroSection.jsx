@@ -22,19 +22,13 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Shristi Sharan",
+                "Rajesh",
                 1000,
-                "Software Developer",
-                1000,
-                "Open-Source Contributor",
-                1000,
-                "DL/ML Engineer",
+                "AL/DL Developer",
                 1000,
                 "Techie",
                 1000,
                 "Developer",
-                1000,
-                "FullStack Developer",
                 1000,
               ]}
               wrapper="span"
@@ -43,20 +37,20 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-           Passionate and versatile - Full Stack Software Developer
-           & AI/Deep Learning Engineer with skills, experience and development.
+          AI/Deep Learning Engineer with skills, experience and development.
           
-           Open for exciting opportunities to contribute my all-in-one expertise.
+          Open for exciting opportunities to contribute my all-in-one expertise.
           </p>
           <div>
             <Link
-              href="https://www.linkedin.com/in/shristi-sharan-605543227/"
+              href="https://www.linkedin.com/in/rajesh-n-66b0a6208/"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-600 to-yellow-300 hover:bg-orange-300 text-white font-bold"
             >
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1RH5CdhmNEvPNpaZEEuSm66F3HFwYM7XV/view?usp=sharing"
+              // href="https://drive.google.com/file/d/1RH5CdhmNEvPNpaZEEuSm66F3HFwYM7XV/view?usp=sharing"
+              href= 'aaa'
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-green-600 to-yellow-300 hover:bg-orange-300 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-900 rounded-full px-5 py-2">
@@ -73,7 +67,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/rajesh3-image.jpg"
               alt="hero-image"
               className="w-full h-full object-cover rounded-full"
               layout="fill"

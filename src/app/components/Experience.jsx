@@ -42,53 +42,55 @@ const Experience = () => {
 
   const experiences = [
     {
-    company: 'IIT Delhi',
-    position: 'Deep Learning Research Scholar',
-    timeline: ' May 2024- June 2024',
+    company: 'AK INFO Park',
+    position: 'Data Science Intern',
+    timeline: ' 4 Months',
     description: [
-      'Developed preprocessing pipelines for PPG signal data from Berlin, transforming signals into 2D images with digital signal processing.',
-      'Implemented our Vision Transformer (ViT) model architecture, achieving accuracy of 97.70% in classifying sleep stages, surpassing global benchmarks.',
-      'Contributed to a research paper currently under review for publication in IEEE and Nature Portfolio.',
+      'Developed a custom object detection model using YOLOv5 for real-time surveillance, achieving an accuracy of 95% in detecting multiple objects in diverse environments.',
+      'Implemented a sentiment analysis system using NLP techniques with BERT, providing insights into customer feedback with an 89% accuracy.',
+     'Built and fine-tuned a Large Language Model (LLM) using GPT architecture, enhancing chatbot performance for customer support with a response accuracy rate of 94%.',
+      'Contributed to an ANPR (Automatic Number Plate Recognition) project, leveraging computer vision to recognize vehicle plates with over 98% precision.',
+      'Deployed custom LLM models for text generation and summarization tasks, improving productivity in automated report generation by 30%.'
       ],
   },
-  {
-    company: 'GirlScript Foundation- GSSoC\'24',
-    position: 'Open Source Contributor',
-    timeline: ' May 2024- July 2024',
-    description: [
-      'Part Time Engagement in frontend development, backend enhancements, and documentation improvements across multiple projects, ensuring comprehensive project support.',
-      'Actively participated in community forums, provided mentorship to new contributors, and promoted collaboration among team members to drive project success in GSSoc\'24.',
-      ],
-  },
-    {
-      company: 'WhiteLabel Digital Services',
-      position: 'Software Developer Intern',
-      timeline: ' June 2023- August 2023',
-      description: [
-        'Developed and integrated a live static landing page for EDULAKE, an edutech website, ensuring seamless data fetching and API integration.',
-        'Enhanced project robustness by significantly increasing test coverage to 91%.',
-        'Implementing dynamic forms, and optimizing UI responsiveness based on Figma designs'
-        ],
-    },
-    {
-        company: 'IITRAM',
-        position: 'Summer Research Intern',
-        timeline: ' May 2023- July 2023',
-        description: [
-            'Spearheaded the development of a Self-Driving Autonomous Robot Car prototype, emphasizing both hardware and software aspects.',
-            'Implemented a machine learning architecture for autonomous navigation, integrating it into the robot’s hardware using ROS and SLAM techniques.',
-            'Enhanced the robot’s capabilities with Reinforcement Learning, NLP for voice commands, and Object Detection/Avoidance using YOLOv8 within the ROS-DARKNET framework.'
-            ],
-      },
-      {
-        company: 'IITRAM',
-        position: 'Machine Learning Research Intern',
-        timeline: ' Dec. 2022- Feb. 2023',
-        description: [
-            'Led data preprocessing and machine learning model development for computer vision, focusing on tasks like tumor detection and short circuit localization in transformers.',
-            'Implemented neural networks and image processing for accurate placement in object detection of automobile parts using live CCTV footage data.'
-            ],
-      },
+  // {
+  //   company: 'GirlScript Foundation- GSSoC\'24',
+  //   position: 'Open Source Contributor',
+  //   timeline: ' May 2024- July 2024',
+  //   description: [
+  //     'Part Time Engagement in frontend development, backend enhancements, and documentation improvements across multiple projects, ensuring comprehensive project support.',
+  //     'Actively participated in community forums, provided mentorship to new contributors, and promoted collaboration among team members to drive project success in GSSoc\'24.',
+  //     ],
+  // },
+  //   {
+  //     company: 'WhiteLabel Digital Services',
+  //     position: 'Software Developer Intern',
+  //     timeline: ' June 2023- August 2023',
+  //     description: [
+  //       'Developed and integrated a live static landing page for EDULAKE, an edutech website, ensuring seamless data fetching and API integration.',
+  //       'Enhanced project robustness by significantly increasing test coverage to 91%.',
+  //       'Implementing dynamic forms, and optimizing UI responsiveness based on Figma designs'
+  //       ],
+  //   },
+  //   {
+  //       company: 'IITRAM',
+  //       position: 'Summer Research Intern',
+  //       timeline: ' May 2023- July 2023',
+  //       description: [
+  //           'Spearheaded the development of a Self-Driving Autonomous Robot Car prototype, emphasizing both hardware and software aspects.',
+  //           'Implemented a machine learning architecture for autonomous navigation, integrating it into the robot’s hardware using ROS and SLAM techniques.',
+  //           'Enhanced the robot’s capabilities with Reinforcement Learning, NLP for voice commands, and Object Detection/Avoidance using YOLOv8 within the ROS-DARKNET framework.'
+  //           ],
+  //     },
+      // {
+      //   company: 'MACET',
+      //   position: 'Machine Learning Researcher',
+      //   timeline: ' Dec. 2022- Feb. 2023',
+      //   description: [
+      //       'Led data preprocessing and machine learning model development for computer vision, focusing on tasks like tumor detection and short circuit localization in transformers.',
+      //       'Implemented neural networks and image processing for accurate placement in object detection of automobile parts using live CCTV footage data.'
+      //       ],
+      // },
   ];
 
   const handleTabClick = (index) => {

@@ -26,48 +26,48 @@ import { FaRust } from "react-icons/fa";
 function Techstack() {
   return (
     <Row className="justify-content-center text-center" style={{ paddingBottom: "50px" }}>
-      <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
+      {/* <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <CgCPlusPlus />
-      </Col>
+      </Col> */}
       <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-      <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
+      {/* <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <FaRust />
-      </Col>
-      <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <SiTypescript />
-      </Col>
+      </Col> */}
       <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <DiMongodb />
       </Col>
-      <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
+      {/* <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <SiExpress />
-      </Col>
+      </Col> */}
       <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <DiNodejs />
       </Col>
-      <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
+      {/* <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <SiNextdotjs />
-      </Col>
+      </Col> */}
       <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <SiTensorflow />
         </Col>
       <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <DiGit />
       </Col>
-      <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
+      {/* <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <TbBrandGolang />
-        </Col>
-      <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
+        </Col> */}
+      {/* <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <SiRedis />
-      </Col>
+      </Col> */}
       <Col xs={6} sm={4} md={3} lg={2} xl={2} className="tech-icons">
         <SiPostgresql />
       </Col>

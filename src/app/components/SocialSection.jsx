@@ -7,12 +7,12 @@ import { SiLeetcode , SiMedium} from "react-icons/si";
 
 const SocialSection = () => {
   const socialMediaData = [
-    { name: "GitHub", url: "https://github.com/ShristiSharan", icon: <AiFillGithub /> },
-    { name: "Twitter", url: "https://twitter.com/shris_05", icon: <AiOutlineTwitter /> },
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/shristi-sharan-605543227/", icon: <FaLinkedinIn /> },
-    { name: "Medium", url: "https://medium.com/@shristisharan05", icon: <SiMedium /> },
-    { name: "Leetcode", url: "https://leetcode.com/sweeshh/", icon: <SiLeetcode /> },
-    { name: "Instagram", url: "https://www.instagram.com/sharan_shristi/", icon: <AiFillInstagram /> },
+    { name: "GitHub", url: "https://github.com/rajeshrj-git?tab=repositories", icon: <AiFillGithub /> },
+    // { name: "Twitter", url: "https://twitter.com/shris_05", icon: <AiOutlineTwitter /> },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/rajesh-n-66b0a6208/", icon: <FaLinkedinIn /> },
+    // { name: "Medium", url: "https://medium.com/@shristisharan05", icon: <SiMedium /> },
+    { name: "Leetcode", url: "https://leetcode.com/u/rajeshchoco/", icon: <SiLeetcode /> },
+    // { name: "Instagram", url: "https://www.instagram.com/sharan_shristi/", icon: <AiFillInstagram /> },
   ];
 
   return (

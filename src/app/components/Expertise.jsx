@@ -11,7 +11,7 @@ const ExpertiseSection = () => {
     {
       icon: <BsCodeSlash />,
       heading: 'Software Development',
-      text: 'Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.',
+      text: 'Experienced in both functional and OOP:  Python',
     },
     {
       icon: <LuBrainCircuit/>,
@@ -20,13 +20,13 @@ const ExpertiseSection = () => {
     },
     {
       icon: <MdComputer />,
-      heading: 'Frontend Dev React, NextJS',
-      text: 'Passionate about UI/UX. Development experience in HTML, CSS, JS, React and NextJS frameworks.',
+      heading: 'Deployment',
+      text: 'Experience in Deployment AWS Web Services, Docker, Kubernetics',
     },
     {
     icon: <FaPen />,
-      heading: 'DSA & Open Source Contributor',
-      text: 'Strong DSA skills and active Open Source contributor (GSSoC\'24, HacktoberFest\'23).',
+      heading: 'DSA',
+      text: 'Strong DSA skills',
     }
   ];
 

@@ -43,17 +43,20 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          Hello_World//
+          rajesh's  Portfolio//
         </Link>
         <script dangerouslySetInnerHTML={{
           __html: `
             window.embeddedChatbotConfig = {
-              chatbotId: "FlnsjChPTCMOaqPtdVXnJ",
+              chatbotId: "9Roa_A8Mmm2uacX_L_v7P",
               domain: "www.chatbase.co"
             };
           `}
         } defer></script>
-        <script src="https://www.chatbase.co/embed.min.js" chatbotId="FlnsjChPTCMOaqPtdVXnJ" domain="www.chatbase.co" defer></script>
+
+{/* FlnsjChPTCMOaqPtdVXnJ         */}
+
+        <script src="https://www.chatbase.co/embed.min.js" chatbotId="9Roa_A8Mmm2uacX_L_v7P" domain="www.chatbase.co" defer></script>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button

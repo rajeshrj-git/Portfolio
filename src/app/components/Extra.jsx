@@ -17,14 +17,14 @@ const Extra = () => {
           whileHover={{ scale: 1.1, boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', cursor: 'pointer', backgroundColor: '#e6ffe6' }}
         >
           <p style={{ fontWeight: '900', marginBottom: '8px' }}>Education</p>
-          <p>Institute of Infrastructure Technology Research and Management</p>
-          <p>Bachelor of Technology - Electrical and Computer Science</p>
+          <p>Marthandam College Of Engineering and Technology</p>
+          <p>Bachelor of Technology - Computer Science</p>
           <p>Aug 2021 - May 2025</p>
         </motion.div>
 
         <div style={{ marginBottom: '40px' }}></div>
 
-        {/* Roles & Responsibilities cards */}
+        {/* Roles & Responsibilities cards
         <h3 className="text-2xl font-bold mb-4">Roles & Recognitions</h3>
         <div className="roles-section">
           {[
@@ -50,9 +50,9 @@ const Extra = () => {
               transition={{ duration: 0.3, delay: index * 0.1 }}
             >
               <h3>{role}</h3>
-            </motion.div>
-          ))}
-        </div>
+            </motion.div> */}
+          {/* ))} */}
+        {/* </div> */}
       </div>
     </section>
   );
