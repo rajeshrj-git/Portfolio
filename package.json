@@ -2,12 +2,15 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "deploy": "gh-pages -d build",
-    "lint": "next lint"
+ "scripts": {
+   "dev": "next dev",
+   "build": "next build",
+   "deploy": "gh-pages -d build",
+   "predeploy": "npm run build && next export",  // Generates static files in /out
+   "deploy": "gh-pages -d out",                // Deploys /out folder
+   "start": "next start",
+   "lint": "next lint"
+}
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
